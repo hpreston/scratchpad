@@ -1,3 +1,5 @@
+sudo yum -y install yum-utils
+yum-complete-transaction
 sudo yum -y groupinstall development
 sudo yum -y install nano wget
 
