@@ -1,0 +1,34 @@
+# Open NX-OS Programmability Sandbox DevBox Login
+
+# Move to code repo
+cd sbx_nxos
+
+# update repo
+echo "Updating Sample Code Repo"
+git pull
+echo ""
+
+# Activate Python 2.7 Virtual Environment
+echo "Activating Python 2.7.13 Virtual Environment"
+source venv/python2/bin/activate
+echo ""
+
+# Welcome Message
+echo "*************************************************************"
+echo "Welcome to the NX-OS Programmability Sandbox!"
+echo ""
+echo "You are in '~/sbx_nxos', which is a code samples repository for use with this Sandbox.  This repo is available at https://github.com/DevNetSandbox/sbx_nxos."
+echo ""
+echo "A Python 2.7.13 Virtual Environment has been activated.  If you wish to work with Python 3.6, you can switch with: "
+echo "    deactivate "
+echo "    source venv/python3/bin/activate"
+echo ""
+echo "The NX-OS devices ar available at:  "
+echo "   nx-osv9000-1 IP:   172.16.30.101"
+echo "   nx-osv9000-2 IP:   172.16.30.102"
+echo "   nx-osv9000-3 IP:   172.16.30.103"
+echo "   nx-osv9000-4 IP:   172.16.30.104"
+echo "   User: cisco"
+echo "   Pass: cisco"
+echo ""
+echo "Have fun!"
